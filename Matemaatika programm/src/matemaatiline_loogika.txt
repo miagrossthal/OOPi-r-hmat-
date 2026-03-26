@@ -1,0 +1,223 @@
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on lause?
+VASTUS: Lause on väljend, mille korral saab rääkida selle sisu vastavusest või mittevastavusest tegelikkusele.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on predikaat?
+VASTUS: Predikaat on lause, mis sisaldab vähemalt ühte muutujat ja millele saab omistada tõeväärtuse niipea, kui muutuja(te)le on omistatud väärtus(ed).
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on lause "∃x P(x)” eitus?
+VASTUS: ∀x ¬P(x)
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on lause "∀x P(x)” eitus? 
+VASTUS: ∃x ¬P(x)
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Millised on lausearvutuse valemite reeglid? (Vastus kirjuta kujul "0, 0, 0, 0").
+1. iga lausemuutuja on lausearvutuse valem,
+2. mõni lausemuutuja on lausearvutuse valem,
+3. tõeväärtused t ja v on valemid,
+4. tõeväärtused t ja v ei ole valemid,
+5. kui F on lausearvutuse valem, siis ka ¬F on lausearvutuse valem,
+6. kui F ja G on lausearvutuse valemid, siis ka F ∧ G, F ∨ G, F ⇒ G ja F ⇔ G on lausearvutuse valemid,
+7. kui F on lausearvutuse valem, siis ka (F) on lausearvutuse valem.
+
+VASTUS: 1, 3, 5, 6, 7
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse lausearvutuse valemit F, mis on igal väärtustusel tõene?
+VASTUS: Samaselt tõene ehk tautoloogia.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse lausearvutuse valemit F, mis on igal väärtustusel väär?
+VASTUS: Samaselt väär ehk vastuoluline.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse lausearvutuse valemit F, mis on vähemalt ühel väärtustusel tõene?
+VASTUS: Kehtestatav.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse lausearvutuse valemit F, mis on vähemalt ühel väärtustusel väär?
+VASTUS: Kummutatav.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Millal nimetatakse valemeid F ja G loogiliselt samaväärseteks?
+VASTUS: Kui nende tõeväärtused on võrdsed igal neis valemeis esinevate muutujate väärtustusel
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mida nimetatakse lihtkonjuktsiooniks ehk elementaarkonjuktsiooniks?
+VASTUS: Muutujate või nende eituste konjunktsiooni.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Millal nimetatakse lihtkonjuktsiooni täielikuks?
+VASTUS: Kui vaadeldavatest muutujatest igaüks esineb täpselt ühe korra.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse valemiga F samaväärset valemit, mis kujutab endast erinevate lihtkonjunktsioonide disjunktsiooni?
+VASTUS: Disjunktiivne normaalkuju.
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse valemiga F samaväärset valemit, mis kujutab endast erinevate täielike lihtkonjunktsioonide disjunktsiooni?
+VASTUS: Täielik disjunktiivne normaalkuju.
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas valemitest F1,...,Fn järeldub valem G, kui igal neis valemeis esinevate muutujate väärtustusel, millel F1,...,Fn on tõesed, on ka G tõene?
+VASTUS: Jah
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas valemitest F1,...,Fn järeldub valem G parajasti siis, kui valem F1 ∧...∧Fn ⇒ G on samaselt tõene?
+VASTUS: Jah
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas valemid F ja G on samaväärsed parajasti siis, kui valem F ⇔ G ei ole samaselt tõene?
+VASTUS: Ei
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas iga lausearvutuse valemi F jaoks leidub temaga loogiliselt samaväärne valem, mis ei sisalda loogilisi tehteid ⇒ ja ⇔?
+VASTUS: Jah
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Millal eksisteerib valemil täielik disjunktiivne normaalkuju?
+VASTUS: Kui ta on kehtestatav.
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS:
+VASTUS:
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Millal on valemid F ja G samaväärsed?
+VASTUS: Kui valemist F järeldub valem G ja valemist G järeldub valem F.
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ∧ F ≡ F,
+b) F ∨ F ≡ F.
+VASTUS: Idempotentsus
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ∧ G ≡ G ∧ F,
+b) F ∨ G ≡ G ∨ F.
+VASTUS: Kommutatiivsus
+
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) (F ∧ G) ∧ H ≡ F ∧ (G ∧ H),
+b) (F ∨ G) ∨ H ≡ F ∨ (G ∨ H).
+VASTUS: Assotsiatiivsus
+
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ∧ (G ∨ H) ≡ F ∧ G ∨ F ∧ H,
+b) F ∨ (G ∧ H) ≡ (F ∨ G) ∧ (F ∨ H).
+VASTUS: Distributiivsus
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ∧ (F ∨ G) ≡ F,
+b) F ∨ F ∧ G ≡ F.
+VASTUS: Neelamisomadus
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) ¬(F ∧ G) ≡ ¬F ∨ ¬G,
+b) ¬(F ∨ G) ≡ ¬F ∧ ¬G.
+VASTUS: De Morgani seadus
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+¬¬F ≡ F
+VASTUS: Kahekordne eitus
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ∧ t ≡ F,
+b) F ∨ t ≡ t,
+c) F ∧ v ≡ v,
+d) F ∨ v ≡ F.
+VASTUS: Liikmete elimineerimise reeglid
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ⇒ G ≡ ¬(F ∧ ¬G),
+b) F ⇒ G ≡ ¬F ∨ G.
+VASTUS: Implikatsiooni avaldis konjunktsiooni ja disjunktsiooni kaudu
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ∧ G ≡ ¬(F ⇒ ¬G),
+b) F ∨ G ≡ ¬F ⇒ G.
+VASTUS: Konjunktsiooni ja disjunktsiooni avaldis implikatsiooni kaudu
+
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse omadust, mille korral kehtib:
+a) F ⇔ G ≡ F ∧ G ∨ ¬F ∧ ¬G,
+b) F ⇔ G ≡ (F ⇒ G) ∧ (G ⇒ F).
+VASTUS: Ekvivalentsi avaldis teiste tehete kaudu

@@ -1,0 +1,183 @@
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka, mis ei sisalda ühtegi elementi ja mida tähistatakse sümboliga ∅?
+VASTUS: Tühi hulk
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka A, kui kõik hulga A elemendid on hulga B elementideks (ehk hulga A iga element kuulub hulka B)?
+VASTUS: Osahulk
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka A, mida kirjutatakse A⊊B, kui hulk A on hulga B osahulk ja A̸=B.
+VASTUS: Pärisosahulk
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on hulga A kõigi osahulkade hulk? (⊂, ⊊, ∈)
+VASTUS: P(A) = {X | X⊂A}
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka A∪B, mille moodustavad kõik elemendid, mis kuuluvad vähemalt ühte hulkadest A või B, st A ∪ B = {x|x∈A ∨ x∈B}?
+VASTUS: Ühend
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka A∩B, mille moodustavad kõik elemendid, mis kuuluvad nii hulka A kui ka hulka B, st A∩B = {x|x∈A ∧ x∈B}?
+VASTUS: Ühisosa
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka A \ B, mille moodustavad elemendid, mis kuuluvad hulka A, aga ei kuulu hulka B, st A \ B = {x|x∈A ∧ x/∈B}?
+VASTUS: Vahe
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka A △ B, mille moodustavad elemendid, mis kuuluvad parajasti ühte kahest hulgast A ja B, st A △ B = (A\B)∪(\A)={x|(x∈A ∧ x/∈B) ∨ (x/∈A ∧ x∈B)}?
+VASTUS: Sümmeetriline vahe
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu U universaalhulk ja A ⊂ U. Kuidas nimetatakse hulka, mille moodustavad kõik need universaalse hulga U elemendid, mis ei kuulu hulka A, st A′ = {x∈U: x/∈A}= U\A?
+VASTUS: Täiend
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse kõikide paaride (a,b) hulka, kus a∈A ja b∈B, seejuures elementide järjekord on oluline?
+VASTUS: Otsekorrutis
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on [a,b] = {x | x∈R, a ≤ x ≤ b} nimetus?
+VASTUS: Lõik
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on (a,b) = {x | x∈R, a < x < b} nimetus?
+VASTUS: Vahemik
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Mis on [a,b) = {x | x∈R, a ≤ x < b} ja (a,b] = {x | x∈R, a < x ≤ b} nimetus?
+VASTUS: Poollõigud
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse järgnevaid omadusi:
+a) Iga hulga A korral A ⊂ A (refleksiivsus);
+b) Iga hulga A korral ∅ ⊂ A;
+c) Kui A ja B on sellised hulgad, et A ⊂ B ja B ⊂ A, siis A = B (antisümmeetrilisus);
+d) Kui A, B ja C on sellised hulgad, et A ⊂ B ja B ⊂ C, siis A ⊂ C (transitiivsus)
+VASTUS: Osahulga omadused
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse järgnevaid omadusi:
+a) Iga hulga A korral A∪A = A ja A∩A = A (idempotentsus);
+b) Mis tahes hulkade A ja B korral A∪B = B∪A ja A∩B = B∩A (kommutatiivsus);
+c) Mis tahes hulkade A, B ja C korral (A∪B)∪C = A∪(B∪C) ja (A∩B)∩C = A∩(B∩C) (assotsiatiivsus);
+d) Mis tahes hulkade A, B ja C korral (A∪B)∩C = (A∩C)∪(B∩C) ja (A∩B)∪C =(A∪C)∩(B∪C) (distributiivsus).
+VASTUS: Ühendi ja ühisosa omadused
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse järgnevaid omadusi:
+a) Mis tahes hulkade A ja B korral A △ B = B △ A (kommutatiivsus);
+b) Mis tahes hulkade A, B ja C korral (A △ B) △ C = A △ (B △ C) (assotsiatiivsus);
+c) Mis tahes hulkade A, B ja C korral (A △ B) ∩ C = (A∩C) △ (B∩C) (distributiivsus);
+d) Mis tahes hulkade A ja B korral A △ B = A∪B ⇔ A∩B =∅.
+VASTUS: Sümmeetrilise vahe omadused
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Olgu U universaalhulk ja A, B⊂U. Kuidas nimetatakse järgnevaid omadusi:
+a) ∅′ = U;
+b) U′ = ∅;
+c) A∪A′ = U;
+d) A∩A′ = ∅;
+e) A′′ = A;
+f) (A∪B)′ = A′∩B′;
+g) (A∩B)′ = A′∪B′.
+VASTUS: Täiendi omadused
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse järgnevaid omadusi:
+a) A×∅=∅ ja ∅×A=∅;
+b) A×(B∪C)=(A×B)∪(A×C);
+c) A×(B∩C)=(A×B)∩(A×C);
+d) (A×B)∩(C×D)=(A∩C)×(B∩D);
+e) A×(B\C)=(A×B)\(A×C)
+VASTUS: Otsekorrutise omadused
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas tühi hulk ∅ on üheselt määratud?
+VASTUS: Jah
+
+---
+
+TÜÜP: LAUSE
+KÜSIMUS: Kui hulgas A on n elementi, siis kas hulgal A on 2^n erinevat osahulka?
+VASTUS: Jah
+
+---
+
+TÜÜP: LAUSE
+KÜSIMUS: Kas on tõene, et iga kahe hulga A ja B korral ei kehti A∩B ⊂ A∪B?
+VASTUS: Ei
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas naturaalarvude hulk N on {1,2,3,...}?
+VASTUS: Jah
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas täisarvude hulk Z on {0,1,2,...}?
+VASTUS: Ei
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas ratsionaalarvude hulk Q on {q | q = mn,m∈Z, n∈N}?
+VASTUS:
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas reaalarvude hulga tähis on I?
+VASTUS: Ei
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas irratsionaalarvude hulga tähis on I?
+VASTUS: Jah
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas kompleksarvude hulk C on {z | z=x+iy, x, y∈R, i2=-1}?
+VASTUS: Jah

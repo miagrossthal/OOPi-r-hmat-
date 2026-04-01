@@ -1,5 +1,6 @@
 Õppeaine "Matemaatiline maailmapilt informaatikutele" kordamise programm
 -Mia Grossthal, Joosep-Gre Kallaste
+
 Programmi eesmärk on aidata tudengitel korrata MMP kontrolltöödeks ja tunnikontrollideks. Programmiga saab testida oma teadmisi teoreetilises pooles (definitsioonid, teoreemid, omadused). Algselt tuleb valida, kas eesmärk on teadmisi korrata või testida, seejärel saab valida teema, mis vastavalt esmalt valitud osale, annab kas testiküsimusi või teooriat.
 
 Klasside eesmärgid ning peamiste meetodite seletused on klassides kommentaaridena lisatud.

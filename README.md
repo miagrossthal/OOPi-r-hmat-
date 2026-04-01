@@ -4,7 +4,7 @@ Programmi eesmärk on aidata tudengitel korrata MMP kontrolltöödeks ja tunniko
 
 Klasside eesmärgid ning peamiste meetodite seletused on klassides kommentaaridena lisatud.
 
-Protsessi kirjeldus: Algselt mõtlesime idee ning peamised klassid ja isendiväljad välja. Seejärel tegeles Joosep rohkem koodiga ning Mia andmete kogumise ja töötlusega. Jooksvalt tegelesime mõlemad kõigega. Lõpus lahendasime tekkinud väikeseid probleeme, parandasime kasutajakogemust (näiteks lisasime lausearvutuse märgid küsimuste juurde, et kasutaja saaks neid sealt kopeerida). Kuna aega oli üle, lisasime ka teise teema (hulgateooria), mis tõi endaga kaasa muudatusi koodis.
+Protsessi kirjeldus: Algselt mõtlesime idee ning peamised klassid ja isendiväljad välja. Seejärel tegeles Joosep rohkem koodiga ning Mia andmete kogumise ja töötlusega. Jooksvalt tegelesime mõlemad kõigega. Lõpus lahendasime tekkinud väikeseid probleeme, parandasime kasutajakogemust, näiteks lisasime lausearvutuse märgid küsimuste juurde, et kasutaja saaks neid sealt kopeerida. Kuna aega oli üle, lisasime ka teise teema (hulgateooria), mis tõi endaga kaasa muudatusi koodis.
 
 iga rühmaliikme panus (sh tehtud klassid/meetodid) ja ajakulu (orienteeruvalt);
 tegemise mured (nt millistest teadmistest/oskustest tundsite projekti tegemisel puudust);

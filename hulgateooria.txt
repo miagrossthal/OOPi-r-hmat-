@@ -17,7 +17,7 @@ VASTUS: Pärisosahulk
 ---
 
 TÜÜP: DEFINITSIOON
-KÜSIMUS: Mis on hulga A kõigi osahulkade hulk? (⊂, ⊊, ∈)
+KÜSIMUS: Mis on hulga A kõigi osahulkade hulk? (⊂, ⊊, ∈) (¬, ∧, ∨, →, ↔, ∀, ∃, ≠, ≤, ≥, ∈, ∉, ⊆, ⊂, ∩, ∅, ⊢, ⊨)
 VASTUS: P(A) = {X | X⊂A}
 
 ---

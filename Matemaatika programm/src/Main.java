@@ -4,8 +4,8 @@
  * Rühmatöö nr 1
  * Teema: Matemaatika rakendus
  * Autorid: Mia Grossthal, Joosep-Gre Kallaste
+ * Github repo link: https://github.com/miagrossthal/OOPi-r-hmat-
  **************************************************************************/
-
 
 /**
  * Programmi käivitusklass.

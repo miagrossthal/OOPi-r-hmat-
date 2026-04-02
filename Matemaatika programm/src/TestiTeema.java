@@ -12,6 +12,11 @@ public class TestiTeema extends Teema {
         this.kysimused = kysimused;
     }
 
+    /**
+     * Otstarve: Tagastab teemaga seotud küsimused.
+     * Antud: puudub.
+     * Tulemus: List küsimustest.
+     */
     public List<Kusimus> getKysimused() {
         return kysimused;
     }

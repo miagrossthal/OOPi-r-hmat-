@@ -18,12 +18,22 @@ public class TestiMoodul {
         this.random = new Random();
     }
 
+    /**
+     * Otstarve: Kuvab kõik testiteemad.
+     * Antud: puudub.
+     * Tulemus: teemade nimed kuvatakse.
+     */
     public void kuvaTeemad() {
         for (int i = 0; i < teemad.size(); i++) {
             System.out.println((i + 1) + ". " + teemad.get(i).getNimi());
         }
     }
 
+    /**
+     * Otstarve: Käivitab testi valitud teemal.
+     * Antud: teema indeks ja Scanner.
+     * Tulemus: küsimused esitatakse ja arvutatakse tulemus.
+     */
     public void alustaTest(int indeks, Scanner sc) {
         if (indeks < 0 || indeks >= teemad.size()) {
             System.out.println("Sellist teemat ei ole.");

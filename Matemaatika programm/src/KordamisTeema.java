@@ -15,10 +15,20 @@ public class KordamisTeema extends Teema {
         return kokkuvote;
     }
 
+    /**
+     * Otstarve: Muudab kokkuvõtte teksti.
+     * Antud: uus kokkuvõte.
+     * Tulemus: kokkuvõte uuendatakse.
+     */
     public void setKokkuvote(String kokkuvote) {
         this.kokkuvote = kokkuvote;
     }
 
+    /**
+     * Otstarve: Kuvab teema nime ja kokkuvõtte.
+     * Antud: puudub.
+     * Tulemus: info kuvatakse ekraanile.
+     */
     @Override
     public void kuva() {
         System.out.println("Teema: " + nimi);

@@ -8,10 +8,10 @@
  **************************************************************************/
 
 /**
- * Programmi käivitusklass.
- * Klass algatab rakenduse töö ja luuakse MatemaatikaRakendus objekt.
+ * Otstarve: Käivitab programmi.
+ * Antud: käsurea argumendid.
+ * Tulemus: luuakse rakendus ja see käivitatakse.
  */
-
 public class Main {
     public static void main(String[] args) {
         MatemaatikaRakendus rakendus = new MatemaatikaRakendus();

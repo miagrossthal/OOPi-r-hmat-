@@ -33,6 +33,11 @@ public class MatemaatikaRakendus {
         hulgadTestiMoodul = new TestiMoodul(hulgadTestiTeemad);
     }
 
+    /**
+     * Otstarve: Käivitab programmi peamenüü ja juhib töövoogu.
+     * Antud: puudub.
+     * Tulemus: kasutaja saab valida kordamise või testi.
+     */
     public void kaivita() {
         Scanner sc = new Scanner(System.in);
         boolean tooTab = true;
@@ -60,6 +65,11 @@ public class MatemaatikaRakendus {
         }
     }
 
+    /**
+     * Otstarve: Avab kordamismooduli valitud aine jaoks.
+     * Antud: Scanner.
+     * Tulemus: kuvatakse teemad ja valitud teema sisu.
+     */
     private void avaKordamine(Scanner sc) {
         KordamisMoodul valitudMoodul = valiKordamiseAine(sc);
 
@@ -77,6 +87,11 @@ public class MatemaatikaRakendus {
         valitudMoodul.kuvaTeema(teemaNr - 1, sc);
     }
 
+    /**
+     * Otstarve: Avab testimooduli valitud aine jaoks.
+     * Antud: Scanner.
+     * Tulemus: käivitatakse test.
+     */
     private void avaTest(Scanner sc) {
         TestiMoodul valitudMoodul = valiTestiAine(sc);
 
@@ -94,6 +109,11 @@ public class MatemaatikaRakendus {
         valitudMoodul.alustaTest(teemaNr - 1, sc);
     }
 
+    /**
+     * Otstarve: Võimaldab valida kordamise aine.
+     * Antud: Scanner.
+     * Tulemus: valitud KordamisMoodul või null.
+     */
     private KordamisMoodul valiKordamiseAine(Scanner sc) {
         System.out.println();
         System.out.println("Vali aine:");
@@ -112,6 +132,11 @@ public class MatemaatikaRakendus {
         }
     }
 
+    /**
+     * Otstarve: Võimaldab valida testimise aine.
+     * Antud: Scanner.
+     * Tulemus: valitud TestiMoodul või null.
+     */
     private TestiMoodul valiTestiAine(Scanner sc) {
         System.out.println();
         System.out.println("Vali aine:");
@@ -130,6 +155,11 @@ public class MatemaatikaRakendus {
         }
     }
 
+    /**
+     * Otstarve: Loeb kasutajalt arvu ja kontrollib sisendi õigsust.
+     * Antud: Scanner.
+     * Tulemus: sisestatud täisarv.
+     */
     private int loeArv(Scanner sc) {
         while (!sc.hasNextInt()) {
             System.out.print("Palun sisesta arv: ");

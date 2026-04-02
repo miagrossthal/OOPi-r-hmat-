@@ -20,6 +20,11 @@ public abstract class Kusimus implements Kuvatav {
         return oigeVastus;
     }
 
+    /**
+     * Otstarve: Kontrollib, kas kasutaja vastus on õige.
+     * Antud: kasutaja vastus (String).
+     * Tulemus: true kui vastus on õige, muidu false.
+     */
     public boolean kontrolliVastus(String vastus) {
         return oigeVastus.equalsIgnoreCase(vastus.trim());
     }

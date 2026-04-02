@@ -11,6 +11,11 @@ import java.util.Scanner;
 
 public class AndmeHoidla {
 
+    /**
+     * Otstarve: Loob testiteemad failist loetud andmete põhjal.
+     * Antud: Faili nimi .
+     * Tulemus: List testiteemadest koos küsimustega.
+     */
     public static List<TestiTeema> looTestiTeemad(String failiNimi) {
         List<TestiTeema> teemad = new ArrayList<>();
 
@@ -63,6 +68,11 @@ public class AndmeHoidla {
         return teemad;
     }
 
+    /**
+     * Otstarve: Loob kordamisteemad failist loetud andmete põhjal.
+     * Antud: Faili nimi.
+     * Tulemus: List kordamisteemadest koos kokkuvõtetega.
+     */
     public static List<KordamisTeema> looKordamiseTeemad(String failiNimi) {
         List<KordamisTeema> teemad = new ArrayList<>();
 
@@ -112,6 +122,11 @@ public class AndmeHoidla {
         return teemad;
     }
 
+    /**
+     * Otstarve: Lisab küsimuse õigesse testiteemasse.
+     * Antud: teemade list, teema nimi ja küsimus.
+     * Tulemus: küsimus lisatakse olemasolevasse või uude teemasse.
+     */
     private static void lisaKusimusTeemasse(List<TestiTeema> teemad, String teemaNimi, Kusimus kusimus) {
         TestiTeema teema = leiaTestiTeema(teemad, teemaNimi);
 
@@ -127,6 +142,11 @@ public class AndmeHoidla {
         }
     }
 
+    /**
+     * Otstarve: Lisab küsimuse kordamisteemasse.
+     * Antud: teemade list, teema nimi, küsimus ja vastus.
+     * Tulemus: küsimus lisatakse või liidetakse olemasoleva kokkuvõttega.
+     */
     private static void lisaKordamiseTeemasse(List<KordamisTeema> teemad, String teemaNimi, String kysimus, String vastus) {
         KordamisTeema teema = leiaKordamisTeema(teemad, teemaNimi);
         // teeb ühest küsimusest ploki
@@ -143,8 +163,11 @@ public class AndmeHoidla {
     }
 
 
-    // Abimeetodid teemade otsimiseks listidest.
-
+    /**
+     * Otstarve: Leiab testiteema nime järgi.
+     * Antud: teemade list ja teema nimi.
+     * Tulemus: vastav TestiTeema või null.
+     */
     private static TestiTeema leiaTestiTeema(List<TestiTeema> teemad, String nimi) {
         for (int i = 0; i < teemad.size(); i++) {
             if (teemad.get(i).getNimi().equalsIgnoreCase(nimi)) {
@@ -154,6 +177,11 @@ public class AndmeHoidla {
         return null;
     }
 
+    /**
+     * Otstarve: Leiab kordamisteema nime järgi.
+     * Antud: teemade list ja teema nimi.
+     * Tulemus: vastav KordamisTeema või null.
+     */
     private static KordamisTeema leiaKordamisTeema(List<KordamisTeema> teemad, String nimi) {
         for (int i = 0; i < teemad.size(); i++) {
             if (teemad.get(i).getNimi().equalsIgnoreCase(nimi)) {

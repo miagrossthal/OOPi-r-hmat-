@@ -1,0 +1,167 @@
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A ja B hulgad. Milleks nimetatakse hulkade A ja B vahel otsekorrutise A × B mis tahes osahulka?
+VASTUS: Seoseks ehk relatsiooniks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse seost R = A × B? seost ∅ ⊂ A×B tühiseoseks (ingl empty relation).
+VASTUS: Universaalseks seos
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse seost ∅ ⊂ A×B.
+VASTUS: Tühiseos
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu X ja Y hulgad. Kuidas nimetatakse seost R ⊂ X×Y, kui
+1. iga x ∈ X korral leidub y ∈ Y nii, et (x,y) ∈ R
+2. kui x ∈ X ja y, z ∈ Y on sellised, et (x,y) ∈ R ja (x,z) ∈ R, siis y = z.
+VASTUS: Funktsioon
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu R ⊂X×Y funktsioon. Siis mis on R, kui x1,x2 ∈ X ja y ∈ Y on sellised, et (x1,y) ∈ R ja (x2,y) ∈ R, siis x1 = x2.
+VASTUS: Injektiivne
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu R ⊂X×Y funktsioon. Siis mis on R, kui iga y ∈ Y korral leidub x ∈ X nii, et (x, y) ∈ R?
+VASTUS: Sürjektiivne
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A ja B hulgad ning olgu antud seosed R,S ⊂ A×B. Kuidas nimetatakse seost R ∪ S,  mille korral a(R ∪S)b ⇔aRb∨aSb?
+VASTUS: Ühend
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A ja B hulgad ning olgu antud seosed R,S ⊂ A×B. Kuidas nimetatakse seost R ∩ S, mille korral a(R ∩ S)b ⇔ aRb∧aSb?
+VASTUS: Ühisosa
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A ja B hulgad ning olgu antud seosed R,S ⊂ A×B. Kuidas nimetatakse seost R \ S, mille korral a(R \S)b ⇔ aRb∧¬(aSb)?
+VASTUS: Vahe
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A ja B hulgad ning olgu antud seosed R,S ⊂ A×B. Kuidas nimetatakse seost R′, mille korral aR′b ⇔ ¬(aRb), kus universaalseks hulgaks on A × B?
+VASTUS: Täiend
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse seost S ◦ R ⊂ A×C, kus S ◦R={(a,c): ∃b ∈ B nii, et (a,b) ∈ R∧(b,c) ∈ S}?
+VASTUS: Korrutis ehk kompositsioon
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A hulk. Kuidas nimetatakse seost R hulgal A, kui ta on
+(a) refleksiivne, st kui aRa iga a∈A korral;
+(b) sümmeetriline, st kui aRb, siis bRa;
+(c) transitiivne, st kui aRb ja bRc, siis aRc.
+VASTUS: Ekvivalentsusseos
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Ekvivalentsiklassiks (ingl equivalence class) elemendi a ∈ A järgi (või ekvivalentsiklassiks ekvivalentsusseose R järgi esindajaga a) nimetatakse hulga A osahulka [a]R, mis koosneb hulga A kõigist elementidest, mis on seoses R elemendiga a ehk [a]R = {x ∈ A: aRx}.
+VASTUS: Tõene
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu R ekvivalentsusseos hulgal A. Kuidas nimetatakse seose R kõikide ekvivalentsiklasside hulka ja tähistatakse A/R.
+VASTUS: Hulga A faktorhulk ekvivalentsusseose R järgi
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Hulga võimsuseks nimetatakse tema ekvivalentsiklassi seose ∼ järgi.
+VASTUS: Tõene
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu A hulk. Kuidas nimetatakse seost R hulgal A, kui ta on
+(a) refleksiivne, st kui aRa iga a∈A korral;
+(b) antisümmeetriline, st kui aRb ja bRa, siis a=b;
+(c) transitiivne, st kui aRb ja bRc, siis aRc.
+VASTUS: Osalise järjestuse seos
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka, millel on antud osalise järjestuse seos.
+VASTUS: Osaliselt järjestatud hulk
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu (A,⪯) osaliselt järjestatud hulk ja a,b∈A. Kui a⪯b või b⪯a, siis mida öeldakse elementide a ja b kohta?
+VASTUS: Elemendid a ja b on võrreldavad
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse osaliselt järjestatud hulka, kui iga kaks suvalist elementi sellest hulgast on omavahel võrreldavad.
+VASTUS: Lineaarselt järjestatud hulk ehk ahel
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse osaliselt järjestatud hulga A elementi a0, kui a0 ⪯ a iga a ∈ A korral. Analoogiliselt, elementi a0 ∈ A nimetatakse suurimaks ehk viimaseks (ingl greatest), kui a ⪯ a0 iga a ∈ A korral.
+VASTUS: Vähim ehk esimene
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse osaliselt järjestatud hulga A elementi a0 ∈ A, kui a ⪯ a0 iga a ∈ A korral.
+VASTUS: Suurim ehk viimane
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse osaliselt järjestatud hulga A elementi a0, kui sellest, et a ∈ A ja a ⪯a0, järeldub, et a = a0. (st hulgas A ei ole elemendist a0 väiksemaid elemente). Analoogiliselt, elementi a0 nimetatakse maksimaalseks (ingl maximal), kui sellest, et a ∈ A ja a0 ⪯ a, järeldub, et a = a0 (st hulgas A ei ole elemendist a0 suuremaid elemente).
+VASTUS: Minimaalne
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse osaliselt järjestatud hulga A elementi a0, kui sellest, et a ∈ A ja a0 ⪯ a, järeldub, et a = a0 (st hulgas A ei ole elemendist a0 suuremaid elemente).
+VASTUS: Maksimaalne
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Mille omadused on järgnevad:
+Olgu A hulk. Seost R ⊂ A×A nimetatakse
+(a) refleksiivseks (ingl reflexive), kui iga a ∈ A korral (a,a) ∈ R;
+(b) irrefleksiivseks (ingl irreflexive), kui iga a ∈ A korral (a,a) /∈ R;
+(c) sümmeetriliseks (ingl symmetric), kui iga a,b ∈ A korral, kui (a,b) ∈ R, siis (b, a) ∈ R;
+(d) antisümmeetriliseks (ingl antisymmetric), kui iga a,b ∈ A korral kui (a, b) ∈ R ja (b,a) ∈ R, siis a = b;
+(e) transitiivseks (ingl transitive), kui iga a,b,c ∈ A korral, kui (a,b) ∈ R ja (b, c) ∈ R, siis (a,c) ∈ R.
+VASTUS: Seose omadused
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas teoreem on tõene või väär? Olgu R suvaline ekvivalentsusseos hulgal A. Siis faktorhulk A/R on klassijaotus hulgal A.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas teoreem on tõene või väär? Olgu R suvaline ekvivalentsusseos hulgal A. Siis faktorhulk R/A on klassijaotus hulgal A.
+VASTUS: Väär

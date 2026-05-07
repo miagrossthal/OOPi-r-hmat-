@@ -1,0 +1,127 @@
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Olgu X ja Y mittetühjad hulgad. Kui on antud eeskiri, mis seab hulga X igale elemendile vastavusse täpselt ühe hulga Y elemendi, siis öeldakse, et on defineeritud funktsioon f, ja kirjutatakse f : X → Y. Kui elemendile x ∈ X seatakse vastavusse y ∈ Y, siis kasutatakse kirjutist y = f(x) või y = fx või f : x → y. 
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Olgu X ja Y mittetühjad hulgad. Kui on antud eeskiri, mis seab hulga X igale elemendile vastavusse täpselt ühe hulga Y elemendi, siis öeldakse, et on defineeritud graafik f, ja kirjutatakse f : X → Y. Kui elemendile x ∈ X seatakse vastavusse y ∈ Y, siis kasutatakse kirjutist y = f(x) või y = fx või f : x → y. 
+VASTUS: Väär
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Funktsioone f : X → Y ja g: Z → W nimetatakse võrdseteks (ingl equal), kui X = Z, Y = W ja f(x) = g(x) iga x ∈ X(=Z) korral.
+VASTUS: Tõene
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Vaatleme funktsiooni f : X → Y. Kuidas nimetatakse hulka G(f) = {(x, f(x)) | x ∈ X} ⊂ X × Y?
+VASTUS: Graafikuks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu U universaalne hulk ja vaatleme tema osahulka A ⊂ U. Kuidas nimetatakse funktsiooni χA: U →{0,1}, kus
+χA(x) = 1, kui x ∈ A
+χA(x) = 0, kui x ∈ U \A?
+VASTUS: Hulga A karakteristlik funktsioon
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kui x ∈ X ja y ∈ Y on sellised, et y = f(x), siis kuidas nimetatakse elementi y?
+VASTUS: Elemendi x kujutiseks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Millise hulga kujutiseks (ingl image) nimetatakse hulga Y osahulka f(A), mis koosneb kõikide hulga A elementide kujutistest, st f(A) = {f(x): x ∈ A} = {y ∈ Y : ∃x (x ∈ A ∧ f(x) = y)}. VAJALIKUD MÄRGID JUURDE
+VASTUS: A ⊂ X
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Olgu antud funktsioon f : X → Y. Kui x ∈ X ja y ∈ Y on sellised, et y = f(x), siis elementi x nimetatakse funktsiooni f elemendi y originaaliks.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas definitsioon on tõene või väär? Olgu antud funktsioon f : X → Y. Kui x ∈ X ja y ∈ Y on sellised, et y = f(x), siis elementi x nimetatakse funktsiooni f elemendi y kujutiseks.
+VASTUS: Väär
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse funktsiooni f : X → Y, kui iga paari x1,x2 ∈ X, x1 ̸ = x2, korral f(x1) ̸ = f(x2);
+VASTUS: Injektiivseks ehk üksüheseks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse funktsiooni f : X → Y, kui iga y ∈ Y jaoks leidub selline x ∈ X, et y = f(x);
+VASTUS: Sürjektiivseks ehk pealekujutuseks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse funktsiooni f : X → Y, kui f on nii injektiivne kui ka sürjektiivne.
+VASTUS: Bijektiivseks ehk üksüheseks vastavuseks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu X, Y ja Z mingid (mittetühjad) hulgad. Milleks nimetatakse niisugust funktsiooni g◦f : X → Z, et (g ◦f)(x) = g(f(x)) iga x ∈ X korral?
+VASTUS: Kompositsiooniks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Olgu X ja Y hulgad. Millise funktsiooni f : X → Y pöördfunktsiooniks (ingl inverse function) nimetatakse funktsiooni f−1: Y → X, mis seab igale y ∈ Y vastavusse täpselt ühe elemendi x ∈ X, mille korral f(x) = y?
+VASTUS: Bijektiivse
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Millise funktsiooni kohta käivad järgmised omadused:
+Olgu U universaalne hulk ja A,B ⊂ U. Siis iga x,y ∈ U korral
+1. χA(x) · χA(x) = χA(x);
+2. χA′(x) = χU\A(x) = 1−χA(x);
+3. χA∩B(x) = χA(x)·χB(x) = min{χA(x),χB(x)};
+5. χA\B(x) = χA(x)−χA(x)·χB(x);
+4. χA∪B(x) = χA(x)+χB(x)−χA(x)·χB(x) = max{χA(x),χB(x)};
+6. χA△B(x) = χA(x)+χB(x)−2χA(x)·χB(x);
+7. χA×B((x,y)) = χA(x)·χB(y).
+VASTUS: Karakteristliku
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Mille omadused on järgnevad:
+Olgu f funktsioon hulgast X hulka Y ja A,B ⊂ X. Siis
+1. f(∅) = ∅;
+2. f(X) ⊂ Y;
+3. Kui A ⊂B, siis f(A) ⊂ f(B);
+4. f(A∪B) =f(A)∪f(B);
+5. f(A∩B) ⊂f(A)∩f(B).
+VASTUS: Kujutise
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Mis on järgneva printsiibi nimetus:
+Olgu A ja B lõplikud hulgad ning f: A → B funktsioon.
+1. Kui |A| > |B|, siis f pole injektiivne.
+2. Kui |A| < |B|, siis f pole sürjektiivne.
+VASTUS: Dirichlet’ printsiip
+
+
+
+
+
+
+
+
+

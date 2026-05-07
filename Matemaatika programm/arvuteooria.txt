@@ -29,9 +29,8 @@ VASTUS: Tõene
 ---
 
 TÜÜP: DEFINITSIOON
-KÜSIMUS: Jäägiklassideks mooduli n järgi nimetatakse kõigi selliste täisarvude hulka, mis on kongruentsed täisarvuga a mooduli n järgi, st a={b∈Z|a≡b (mod n)}.
-
-VASTUS: 
+KÜSIMUS: Milleks nimetatakse mooduli n järgi kõigi selliste täisarvude hulka, mis on kongruentsed täisarvuga a mooduli n järgi, st a={b∈Z|a≡b (mod n)}.
+VASTUS: Jäägiklassideks
 
 ---
 

@@ -1,0 +1,137 @@
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka X, kui X on tühi või leidub selline naturaalarv n≥1 nii, et X saab seada üksühesesse vastavusse naturaalarvude hulga osahulgaga {1,...,n}.
+VASTUS: Lõplikuks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka X, kui ta ei ole lõplik.
+VASTUS: Lõpmatuks
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse lõpliku hulga X elementide arvu. Tähistatakse sümboliga |X|.
+VASTUS: Võimsus
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulki X ja Y, kui leidub bijektsioon f : X → Y.
+VASTUS: Ekvivalentsed ehk sama võimsusega
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka X, kui leidub bijektsioon hulga X ja naturaalarvude hulga N vahel.
+VASTUS: Loenduv
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Ütleme, et hulga A võimsus ei ületa (ingl cardinality less than or equal) hulga B võimsust, kui leidub injektsioon f : A → B.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Ütleme, et hulga A võimsus ei ületa (ingl cardinality less than or equal) hulga B võimsust, kui leidub sürjektsioon f : A → B.
+VASTUS: Väär
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse hulka, mis on ekvivalentne hulgaga R.
+VASTUS: Kontiinumi võimsusega hulk
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kui hulga A võimsus ei ületa hulga B võimsust ning A ja B ei ole ekvivalentsed, siis öeldakse, et hulga A võimsus on väiksem kui (ingl cardinality strictly less than) hulga B võimsus.
+VASTUS: Tõene
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Mis on järgnevad omadused?
+Olgu A,B ja C hulgad. Siis
+1. A ∼A (refleksiivsus);
+2. Kui A ∼B, siis B ∼ A (sümmeetrilisus);
+3. Kui A ∼B ja B ∼C, siis A∼C (transitiivsus).
+VASTUS: Hulkade ekvivalentsuse omadused
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Mis on järgnevad omadused?
+1. Loenduva hulga ja lõpliku hulga ühend on loenduv.
+2. Kahe loenduva hulga ühend on loenduv.
+3. Lõpliku hulga loenduvate hulkade ühend on loenduv.
+4. Loenduva hulga paarikaupa erinevate lõplike hulkade ühend on loenduv.
+5. Loenduva hulga loenduvate hulkade ühend on loenduv.
+6. Kahe loenduva hulga otsekorrutis on loenduv.
+7. Lõpliku arvu loenduvate hulkade otsekorrutis on loenduv.
+VASTUS: Loenduvate hulkade omadused
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas väide on tõene või väär? Hulk X on loenduv parajasti siis, kui hulga X elemendid saab esitada paarikaupa erinevate elementide lõpmatu jadana: X = {x1,x2,...}.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas väide on tõene või väär? Hulk X on lõpmatu parajasti siis, kui hulga X elemendid saab esitada paarikaupa erinevate elementide lõpmatu jadana: X = {x1,x2,...}.
+VASTUS: Väär
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas väide on tõene või väär? Iga lõpmatu hulk sisaldab loenduva osahulga.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas väide on tõene või väär? Iga lõpmatu hulk ei sisalda loenduva osahulga.
+VASTUS: Väär
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas väide on tõene või väär? Loenduva hulga iga lõpmatu osahulk on loenduv.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas väide on tõene või väär? Loenduva hulga iga lõpmatu osahulk ei ole loenduv.
+VASTUS: Väär
+
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Nimeta järgneva teoreemi nimetus:
+Kui hulga A võimsus ei ületa hulga B võimsust ja hulga B võimsus ei ületa hulga A võimsust, siis hulgad A ja B on sama võimsusega.
+VASTUS: Cantor–Bernsteini teoreem
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Vahemik (0,1) ja naturaalarvude hulk N ei ole ekvivalentsed.
+VASTUS: Tõene
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Vahemik (0,1) ja naturaalarvude hulk N on ekvivalentsed.
+VASTUS: Väär
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Nimeta järgneva teoreemi nimetus:
+Iga hulga A kõigi osahulkade hulga P(A) võimsus on suurem kui hulga A võimsus, st |A| < |P(A)|.
+VASTUS: Cantori teoreem

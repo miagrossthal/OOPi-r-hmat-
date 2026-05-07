@@ -1,0 +1,108 @@
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Öeldakse, et täisarv a jagab (ingl divides) täisarvu b (ja tähistatakse a | b), kui leidub selline täisarv c, et ...
+VASTUS: ac=b
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse ühest suuremat naturaalarvu p, mille ainsad naturaalarvulised jagajad on 1 ja p?
+VASTUS: Algarv
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse naturaalarvu, mis on suurem kui 1 ja mis pole algarv?
+VASTUS: Kordarv
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS:  Kas järgnev definitsioon on tõene või väär? Olgu a, b∈Z ja n∈N. Öeldakse, et a ja b ei ole kongruentsed mooduli n järgi (ja kirjutatakse a≡b (mod n)), kui n|b−a, st kui leidub selline k∈Z, et b=a+kn ehk a=b+(−k)n.
+VASTUS: Väär
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS:  Kas järgnev definitsioon on tõene või väär? Olgu a, b∈Z ja n∈N. Öeldakse, et a ja b on kongruentsed mooduli n järgi (ja kirjutatakse a≡b (mod n)), kui n|b−a, st kui leidub selline k∈Z, et b=a+kn ehk a=b+(−k)n.
+VASTUS: Tõene
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Jäägiklassideks mooduli n järgi nimetatakse kõigi selliste täisarvude hulka, mis on kongruentsed täisarvuga a mooduli n järgi, st a={b∈Z|a≡b (mod n)}.
+
+VASTUS: 
+
+---
+
+TÜÜP: DEFINITSIOON
+KÜSIMUS: Kuidas nimetatakse arve F0,F1,F2,..., kus F0 = 0 ja F1 = 1 ning iga naturaalarvu n korral Fn+1 = Fn +Fn−1?
+VASTUS: Fibonacci arvud
+
+---
+
+TÜÜP: OMADUS
+KÜSIMUS: Kuidas nimetatakse järgnevaid omadusi: Olgu a,b ja c täisarvud. Siis
+1. a | a
+2. Kui a | b ja b | c, siis a | c.
+3. Kui a | b ja a | c, siis a | (b±c)
+4. Kui a | b, siis ac | bc iga c ∈ Z korral.
+5. a|1 parajasti siis, kui a = 1 või a = −1.
+VASTUS: Jaguvuse omadused
+
+---
+
+TÜÜP: TOENEVAAR
+KÜSIMUS: Kas järgnev teoreem on tõene või väär? Olgu a täisarv ja b naturaalarv. Siis ei leidu üheselt määratud täisarvud q (jagatis) ja r (jääk) nii, et a =bq+r ja 0≤r<b.
+VASTUS: Väär.
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Aritmeetika põhiteoreem
+Iga naturaalarvu n ≥ 2 saab esitada algarvude korrutisena (st leiduvad r ∈ N ja
+algarvud p1,...,pr nii, et n = p1·...·pr) ning see esitus on ühene tegurite järjekorra
+täpsuseni.
+VASTUS: 
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Mis on Eukleidese teoreem?
+VASTUS: Algarvude hulk on lõpmatu.
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Mis on järgnev printsiip?
+Olgu S(n) predikaat, kus muutuja n saab naturaalarvulisi väärtusi. Kui
+1. S(1) on tõene (induktsiooni baas),
+2. iga naturaalarvu k korral, kui S(k) on tõene, siis ka S(k + 1) on tõene (induktsiooni samm), siis väide S(n) on tõene iga naturaalarvu n korral.
+VASTUS: Matemaatilise induktsiooni printsiip
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Mis on järgnev printsiip?
+Olgu S(k) predikaat, kus muutuja k saab täisarvulisi väärtusi. Kui
+1. leidub k0 ∈ Z nii, et S(k0) on tõene (induktsiooni baas),
+2. iga k ≥ k0 korral, kui S(k) on tõene, siis ka S(k + 1) on tõene (induktsiooni samm), siis väide S(k) on tõene iga k ≥ k0 korral.
+VASTUS: Üldine matemaatilise induktsiooni printsiip
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Mis on järgnev printsiip?
+Olgu S(n) predikaat, kus muutuja n saab naturaalarvulisi väärtusi. Kui
+1. S(1) on tõene (induktsiooni baas),
+2. iga naturaalarvu m korral, kui iga 1 ≤ k ≤ m korral S(k) on tõene, siis S(m+1) on tõene (induktsiooni samm), siis väide S(n) on tõene iga naturaalarvu n korral.
+VASTUS: Tugeva matemaatilise induktsiooni printsiip
+
+---
+
+TÜÜP: TEOREEM
+KÜSIMUS: Mis on järgnev printsiip?
+Olgu S(k) predikaat, kus muutuja k saab täisarvulisi väärtusi. Kui
+1. leidub k0 ∈ Z nii, et S(k0) on tõene (induktsiooni baas),
+2. iga k ≥ k0 korral, kui iga k0 ≤ l ≤ k korral S(l) on tõene, siis S(k + 1) on tõene (induktsiooni samm), siis väide S(k) on tõene iga k ≥ k0 korral.
+VASTUS: Üldine tugeva matemaatilise induktsiooni printsiip

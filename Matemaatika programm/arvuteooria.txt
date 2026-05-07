@@ -58,11 +58,11 @@ VASTUS: Väär.
 ---
 
 TÜÜP: TEOREEM
-KÜSIMUS: Aritmeetika põhiteoreem
+KÜSIMUS: Kuidas nimetatakse järgnevat teoreemi?
 Iga naturaalarvu n ≥ 2 saab esitada algarvude korrutisena (st leiduvad r ∈ N ja
 algarvud p1,...,pr nii, et n = p1·...·pr) ning see esitus on ühene tegurite järjekorra
 täpsuseni.
-VASTUS: 
+VASTUS: Aritmeetika põhiteoreem
 
 ---
 

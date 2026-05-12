@@ -1,15 +1,14 @@
 Õppeaine "Matemaatiline maailmapilt informaatikutele" kordamise programm
 -Mia Grossthal, Joosep-Gre Kallaste
 
-Programmi eesmärk on aidata tudengitel korrata MMP kontrolltöödeks ja tunnikontrollideks. Programmiga saab testida oma teadmisi teoreetilises pooles (definitsioonid, teoreemid, omadused). Algselt tuleb valida, kas eesmärk on teadmisi korrata või testida, seejärel saab valida teema, mis vastavalt esmalt valitud osale, annab kas testiküsimusi või teooriat.
+Programmi eesmärk on aidata tudengitel korrata MMP kontrolltöödeks ja tunnikontrollideks. Programmiga saab testida oma teadmisi teoreetilises pooles (definitsioonid, teoreemid, omadused). Algselt tuleb valida, kas eesmärk on teadmisi korrata või testida, seejärel saab valida teema, mis vastavalt esmalt valitud osale, annab kas testiküsimusi või teooriat. Programmis on ka selgitavad tekstid, kuidas programmi kasutada.
 
 Klasside eesmärgid ning peamiste meetodite seletused on klassides kommentaaridena lisatud.
 
-Protsessi kirjeldus: Algselt mõtlesime idee ning peamised klassid ja isendiväljad välja. Seejärel tegeles Joosep rohkem koodiga ning Mia andmete kogumise ja töötlusega. Jooksvalt tegelesime mõlemad kõigega. Lõpus lahendasime tekkinud väikeseid probleeme, parandasime kasutajakogemust, näiteks lisasime lausearvutuse märgid küsimuste juurde, et kasutaja saaks neid sealt kopeerida. Kuna aega oli üle, lisasime ka teise teema (hulgateooria), mis tõi endaga kaasa muudatusi koodis.
+Protsessi kirjeldus: Kõige pealt mõtlesime välja, milline programm välja võiks näha ning millised osad graafilisse liidesesse tulevad. Seejärel lisas Joosep koodile graafilise liidese osad juurde ning Mia tegeles andmete kogumise ja töötlemisega (juurde tuli 4 teemat). Jooksvalt tegime parandusi ja muudatusi ning tegelesime kasutajakogemuse parandamise ja programmi kujundusega.
 
-Projekti tegemisel oskuseid, millest puudust tundsime eriti polnud, kuna koodi struktuur oli üsna lihtne. Pikemat arutlust ja mõtlemist vajas tekstifailide ülesehitus, et programm mõistaks õigeid asju valida ning konsooli printida.
+Projekti tegemisel oskuseid, millest puudust tundsime eriti polnud, kuna koodi struktuur oli üsna lihtne. Pikemat arutlust ja mõtlemist vajas tekstifailide ülesehitus, et programm mõistaks õigeid asju valida ning kujundus, et kasutajal oleks võimalikult mugav programmi kasutada.
 
-Arendamist vajab kindlasti sisu ja maht. Ideaalis võiksid programmis olla kõik teemad, mis õppeaines on. Samuti võiks programm ka kasutajaliidesega olla tehtud, et nt enne testini jõudmist ei peaks kasutaja nii mitut valikut sisestama, ja et tagasi minek oleks lihtsam, kiirem.
-Üldiselt tuli programm hästi välja, suuremaid probleeme polnud ning lõpptulemus on selline, nagu algselt ette kujutasime.
+Üldiselt tuli programm hästi välja, suuremaid probleeme polnud ning lõpptulemus on selline, nagu algselt ette kujutasime. Kuna kõik teemad said programmi, on meie eesmärk täidetud ning otseselt edasiarendust miski ei vaja.
 
-Programmi testimine oli üsna lihtne. Kuna kogu suhtlus kasutajaga toimub konsoolis, siis sealt saime vaadata, kas prinditi õige tekst välja, kas teemasid valides tulid õiged küsimused jne.
+Programmi testimine oli üsna iseenesestmõistetav, järjest failide lisamisel kontrollisime, kas programm loeb õigeid asju õigetest failidest, ning et väljund oleks korrektne.
